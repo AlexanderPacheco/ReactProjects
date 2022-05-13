@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;        /*Centrar Horizontalmente*/
+  justify-content: center;    /*Centrar Verticalmente*/
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;        /*Centrar Horizontalmente*/
+  justify-content: center;    /*Centrar Verticalmente*/
+  margin: 20px;
+}
+
+.freecodecamp-logo {
+  height: 200px;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;        /*Centrar Horizontalmente*/
+  justify-content: center;    /*Centrar Verticalmente*/
+}
