@@ -1,40 +1,39 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  background-color: #1b1b32;
-}
-
 .App {
-  display: flex;              /*Permite manipular el contenido del contenedor*/
-  flex-wrap: wrap;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;            /*Permite manipular el contenido del contenedor*/
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/
-  padding-top: 15px;
-  font-family: Lato, sans-serif;
 }
 
 .freecodecamp-logo-contenedor {
   width: 100%;
+  height: 50%;
+  margin: 8px;
   display: flex;              /*Permite manipular el contenido del contenedor*/
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/
-  margin: 20px;
 }
 
 .freecodecamp-logo {
   height: 200px;
 }
 
-.contenedor-principal {
-  height: 550px;
-  min-width: 600px;
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 4px;
   display: flex;              /*Permite manipular el contenido del contenedor*/
-  flex-wrap: wrap;
-  flex-direction: column;
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/
 }

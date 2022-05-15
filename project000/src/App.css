@@ -20,7 +20,7 @@ h1 {
 
 .App {
   min-height: 100vh;
-  display: flex;
+  display: flex;              /*Permite manipular el contenido del contenedor*/
   flex-wrap: wrap;
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/
@@ -29,7 +29,7 @@ h1 {
 
 .contenedor-principal {
   min-height: 600px;
-  display: flex;
+  display: flex;              /*Permite manipular el contenido del contenedor*/
   flex-wrap: wrap;
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/

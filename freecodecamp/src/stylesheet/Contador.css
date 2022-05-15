@@ -4,7 +4,7 @@
   font-size: 160px;
   padding: 25px;
   color: white;
-  display: flex;
+  display: flex;              /*Permite manipular el contenido del contenedor*/
   align-items: center;        /*Centrar Horizontalmente*/
   justify-content: center;    /*Centrar Verticalmente*/
   border: 8px solid white;

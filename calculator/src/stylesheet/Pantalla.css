@@ -1,0 +1,16 @@
+.input {
+  height: 75px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;                  /*Permite manipular el contenido del contenedor*/
+  justify-content: flex-end;      /*Alinear contenido a la derecha*/
+  align-items: center;            /*Centrar Verticalmente*/
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #0a0a23;
+  color: white;
+  padding: 11px;
+  padding-right: 11px 30px 11px 11px;
+  margin: 1px solid #888;
+  box-shadow: -1px 4px 1px 1px white;
+}

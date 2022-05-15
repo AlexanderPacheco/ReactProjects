@@ -1,0 +1,28 @@
+.boton-contenedor {
+  height: 83px;
+  display: flex;              /*Permite manipular el contenido del contenedor*/
+  flex: 1 1;                  /*Se divide segun los elementos segun el espacio que tenga*/
+  justify-content: center;    /*Centrar Verticalmente*/
+  align-items: center;        /*Centrar Horizontalmente*/
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;            /*El cursor se vuelve una manita*/
+  user-select: none;          /*No permite seleccionar el texto del boton*/
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
