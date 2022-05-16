@@ -1,0 +1,33 @@
+.task-container {
+	width: 500px;
+	min-height: 65px;
+	background-color: #1b1b32;
+	margin: 5px 0;
+	padding: 8px 15px 8px 20px;
+	display: flex;						/*Permite manipular el contenido del contenedor*/
+	justify-content: space-between; 	/*Elementos distribuidos*/
+	align-items: center;        		/*Centrar Horizontalmente*/
+	border-radius: 1px;
+	border: 1px solid white;
+	cursor: pointer;					/*El cursor se vuelve una manita*/
+}
+
+.task-text {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	display: flex;						/*Permite manipular el contenido del contenedor*/
+	align-items: center;        		/*Centrar Horizontalmente*/
+	overflow-wrap: anywhere;			/*Justifica el contenido, cortandolo si es largo*/
+}
+
+.task-icon {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+}
+
+.task-container.complete {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}
