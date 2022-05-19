@@ -1,0 +1,6 @@
+.tasks-list-container {
+    display: flex;              /*Permite manipular el contenido del contenedor*/
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;           /*Centrar Verticalmente*/
+}
