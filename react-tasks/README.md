@@ -74,3 +74,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```
 npm install react-icons --save
 ```
+
+## Install react generator keys
+```
+npm install uuid
+```
+
+## Others
+```js
+e.preventDefault(); /* Permite no cargar la aplicacion al mandar algo */
+```
